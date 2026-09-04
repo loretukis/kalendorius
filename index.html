@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informacinis kalendorius</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background: white;
+    }
+
+    .calendar {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 212.5%;
+      overflow: hidden;
+    }
+
+    .calendar iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="calendar">
+  <iframe
+    loading="lazy"
+    src="https://www.canva.com/design/DAEy2AhUlVk/9sl_qpP0fsbQKAzaS1hj5Q/view?embed"
+    allowfullscreen>
+  </iframe>
+</div>
+
+</body>
+</html>
